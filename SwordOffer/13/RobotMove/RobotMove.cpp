@@ -17,6 +17,7 @@ public:
 
     bool dfs(int m, int n, int k, int i, int j, std::vector<std::vector<int>>& matrix)
     {
+        std::cout << i << " " << j << std::endl;
         if (i < 0 || j < 0 || i >= m || j >= n || matrix[i][j] > k)
             return false;
         count++;
@@ -29,12 +30,12 @@ public:
 
     int movingCount(int m, int n, int k)
     {
-        for (int i = 0; i < m; i++)
+        for (int p = 0; p < m; p++)
         {
             std::vector<int> temp;
-            for (int j = 0; j < n; j++)
+            for (int q = 0; q < n; q++)
             {
-                temp.push_back(getBitSum(i) + getBitSum(j));
+                temp.push_back(getBitSum(p) + getBitSum(q));
             }
             matrix.push_back(temp);
         }
@@ -53,6 +54,6 @@ private:
 int main()
 {
     Solution sln;
-    std::cout << sln.movingCount(3, 1, 0) << std::endl;
+    std::cout << sln.movingCount(3, 3, 1) << std::endl;
 }
 
