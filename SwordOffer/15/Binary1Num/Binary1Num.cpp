@@ -9,11 +9,8 @@ public:
         while (n != 0)
         {
 
-            if (n % 2 == 1)
-            {
-                cnt++;
-            }
-            n /= 2;
+            cnt += (n & 1);
+            n = n >> 1;
         }
         return cnt;
     }
@@ -23,4 +20,8 @@ int main()
 {
     Solution sln;
     std::cout << sln.hammingWeight(4294967293) << std::endl;
+
+    int a = -4;
+    a = a >> 1;
+    std::cout << a << std::endl;
 }

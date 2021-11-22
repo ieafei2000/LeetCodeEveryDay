@@ -1,0 +1,8 @@
+﻿  ShuffleArray.cpp
+F:\C++Project\LeetCodeEveryDay\OneQuestionPerDay\384\ShuffleArray\ShuffleArray.cpp(22,19): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  正在生成代码
+  2 of 99 functions ( 2.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  ShuffleArray.vcxproj -> F:\C++Project\LeetCodeEveryDay\OneQuestionPerDay\384\ShuffleArray\x64\Release\ShuffleArray.exe
