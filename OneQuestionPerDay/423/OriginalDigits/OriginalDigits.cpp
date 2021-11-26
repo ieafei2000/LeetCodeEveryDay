@@ -10,7 +10,6 @@ public:
     string originalDigits(string s) 
     {
         int cnt[10] = {0};
-        string nums[10] = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
         map<char, int> count;
         for (int i = 0; i < s.size(); i++)
             count[s[i]]++;
