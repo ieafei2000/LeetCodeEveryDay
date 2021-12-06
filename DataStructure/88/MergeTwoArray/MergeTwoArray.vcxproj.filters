@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ContainsDuplicate.cpp">
+    <ClCompile Include="MergeTwoArray.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

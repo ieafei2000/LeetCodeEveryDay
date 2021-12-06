@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{5bd940be-60ca-4c85-a92d-957784a3df18}</ProjectGuid>
-    <RootNamespace>ContainsDuplicate</RootNamespace>
+    <ProjectGuid>{aacfd823-f70f-4c40-91c5-8812d73d6531}</ProjectGuid>
+    <RootNamespace>YHTriangle</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ContainsDuplicate.cpp" />
+    <ClCompile Include="YHTriangle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

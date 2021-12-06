@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{5bd940be-60ca-4c85-a92d-957784a3df18}</ProjectGuid>
-    <RootNamespace>ContainsDuplicate</RootNamespace>
+    <ProjectGuid>{09cbf5fc-0806-4408-9f9a-348fcf80ebbf}</ProjectGuid>
+    <RootNamespace>MergeTwoArray</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ContainsDuplicate.cpp" />
+    <ClCompile Include="MergeTwoArray.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
